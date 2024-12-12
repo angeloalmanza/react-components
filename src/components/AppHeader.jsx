@@ -1,8 +1,12 @@
+import style from './AppHeader.module.css';
+
 const AppHeader = () => {
     return(
-        <div>
-            <h1>Questo è l'header</h1>
-        </div>
+        <header className={style.header}>
+            <div className='container'>
+                <h1 className={style.title}>Il mio blog</h1>
+            </div>
+        </header>
     )
 }
 

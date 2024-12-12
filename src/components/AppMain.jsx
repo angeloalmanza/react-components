@@ -1,8 +1,16 @@
+import PostCard from "./PostCard";
+
 const AppMain = () => {
     return(
-        <div>
-            <h2>Questo è il main</h2>
-        </div>
+        <main>
+            <section>
+                <div className="row">
+                    <div className="col">
+                        <PostCard />
+                    </div>
+                </div>
+            </section>
+        </main>
     )
 }
 

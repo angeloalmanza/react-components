@@ -1,0 +1,29 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+/* LAYOUT */
+main {
+    min-height: 78vh;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
